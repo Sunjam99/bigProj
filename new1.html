@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+ <html lang="en">
+  <head>
+   <title>Bootstrap Example</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" type="text/css" href="1.css">
+   <link rel="stylesheet"
+     href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+   <script>
+    function myFunction() {
+        var popup = document.getElementById("myPopup");
+        popup.classList.toggle("show");
+    }
+   </script>
+  </head>
+    <body>
+      <ul class="breadcrumb">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Newsfeed</a></li>
+        <li><a href="#">Add New User</a></li>
+        <li><a href="#">Admin</a></li>
+      </ul>
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="1.html">Add new user</a>
+          </div>
+        </div>
+      </nav>
+      <div class="row">
+        <div class="column">
+            <img class="card-img-top" src="avator1.png" alt="Card image" style="width:100%">  
+          <div class="card">
+                <h4 class="card-title">SIMBA</h4>
+                <p class="card-text">Simbarshe Musaz</p>
+                <p class="card-text">simz@gmail.com</p>
+                <p class="card-text">07675678557 </p>
+                <div class="popup" onclick="myFunction()">Popup info !!!!
+                  <span class="popuptext" id="myPopup">Next of kin : Luth <br />Address ;Claremont Cape Town <br />Kin Relationship : Sister <br />Cellphone and Email : 0656535637 ruthzw@gmail.com</span>
+                </div>          
+                <button type="button" class="btn btn-info btn" data-toggle="modal" data-target="#myModal">Delete profile</button>
+                  <div id="myModal" class="modal">
+                    <div class="modal-content">
+                      <span class="close">&times;</span>
+                      <p>Do you really wanna delete profile..</p>
+                    </div>
+                  </div>
+                  </div>
+          </div>
+        </div>
+
+        <div class="column">
+            <img class="card-img-top" src="avator1.png" alt="Card image" style="width:100%">
+          <div class="card">
+            <h4 class="card-title">ALEN</h4>
+                  <p class="card-text">Alen Nelson</p>
+                  <p class="card-text">alanemusi@gmail.com</p>
+                  <p class="card-text">07675678557 </p>
+                  <div class="popup" onclick="myFunction()">Popup info !!!!
+                    <span class="popuptext" id="myPopup">Next of kin : Will James<br />Address :Century Rail Hotel Cape Town <br />Kin Relationship : Father <br />Cellphone and Email : 0879086543 wiim@gmail.com</span>
+                  </div>           
+                  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Delete profile</button>
+                  <div id="myModal" class="modal">
+                    <div class="modal-content">
+                      <span class="close">&times;</span>
+                      <p>Do you really wanna delete profile..</p>
+                    </div>
+                  </div>
+          </div>
+        </div>
+        
+        <div class="column">
+            <img class="card-img-top" src="avator1.png" alt="Card image" style="width:100%">
+          <div class="card">
+            <h4 class="card-title">SEAH</h4>
+                  <p class="card-text">Sinot Bhela</p>
+                  <p class="card-text">seaa@gmail.com</p>
+                  <p class="card-text">07675678557 </p>
+                   <div class="popup" onclick="myFunction()">Popup info!
+                    <span class="popuptext" id="myPopup">Next of kin : Tim Kelly<br />Address :Protea Hotel Cape Town <br />Kin Relationship : Mom <br />Cellphone and Email : 0879086543 kelly20@gmail.com</span>
+                   </div>           
+                  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Delete profile</button>
+                  <div id="myModal" class="modal">
+                    <div class="modal-content">
+                      <span class="close">&times;</span>
+                      <p>Do you really wanna delete profile..</p>
+                    </div>
+                </div>
+          </div>
+
+        </div>
+        <div class="column">
+            <img class="card-img-top" src="avator1.png" alt="Card image" style="width:100%">
+          <div class="card">
+            <h4 class="card-title">TeKay</h4>
+                  <p class="card-text">Takudza Kapeze</p>
+                  <p class="card-text">Kazembe@gmail.com</p>
+                  <p class="card-text">07675678557 </p>
+                  <div class="popup" onclick="myFunction()">Popup info!!
+                    <span class="popuptext" id="myPopup">Next of kin : Esnath Banda<br />Address : 2 Main Road Cape Town <br />Kin Relationship : Aunt <br />Cellphone and Email : 097997790 esnath@gmail.com</span>
+                  </div>                  
+                  <div class="container">
+                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Delete profile</button>
+                  <div id="myModal" class="modal">
+                    <div class="modal-content">
+                      <span class="close">&times;</span>
+                      <p>Do you really wanna delete profile..</p>
+                    </div>
+                  </div>
+          </div>
+        </div>
+      </div>
+    </body>
+ </html>
